@@ -12,11 +12,11 @@
 Adafruit_AHTX0 aht;
 
 // ===== WIFI =====
-const char* ssid = "IOT";
-const char* password = "rumahpintar";
+const char* ssid = "SSID";
+const char* password = "password";
 
 // ===== MQTT =====
-const char* mqtt_server = "172.16.0.58";
+const char* mqtt_server = "ipaddress_server";
 const int mqtt_port = 1884;
 const char* mqtt_topic = "sensor/ruang_kebon/aht20";
 
